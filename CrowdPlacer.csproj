@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- BepInEx 5 plugin for TaleSpire.
+       Build:  dotnet build -c Release -p:TaleSpireDir="<your TaleSpire folder>" -p:BepInExCore="<your profile>\BepInEx\core"
+       Then copy bin\Release\net472\CrowdPlacer.dll into that profile's BepInEx\plugins folder. -->
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>CrowdPlacer</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TaleSpireDir Condition="'$(TaleSpireDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\TaleSpire</TaleSpireDir>
+    <TaleSpireManaged>$(TaleSpireDir)\TaleSpire_Data\Managed</TaleSpireManaged>
+    <BepInExCore Condition="'$(BepInExCore)' == ''">$(APPDATA)\Thunderstore Mod Manager\DataFolder\TaleSpire\profiles\Default\BepInEx\core</BepInExCore>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="$(BepInExCore)\BepInEx.dll" Private="false" />
+    <Reference Include="$(TaleSpireManaged)\*.dll" Exclude="$(TaleSpireManaged)\mscorlib.dll;$(TaleSpireManaged)\netstandard.dll;$(TaleSpireManaged)\System.dll;$(TaleSpireManaged)\System.*.dll;$(TaleSpireManaged)\Mono.*.dll;$(TaleSpireManaged)\Microsoft.*.dll" Private="false" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,120 @@
+{
+ "marker": {
+  "x": 7.5,
+  "y": 1.0,
+  "z": 27.5
+ },
+ "blueprints": {
+  "of_commoner_1": "talespire://creature-blueprint/AwAIQ29tbW9uZXIBAAAAIQA6YTEyNzE0ZDczNTU1YTc0ZjgyZDc0Y2ExZTc1ZWRiZmQBAAAAAHHyt8cCtvFEoXUX4Iln8pkABAAAAAAAAAA8ePDgwYMHDx48eAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQQAAIEEAACBBAAAgQQAAIEEAACBBAAAgQQAAIEEAACBBAAAgQQAAIEEAACBBAAAgQQAAIEEAACBBAAAgQQAAIEEAACBBBAAA"
+ },
+ "creatures": [
+  {
+   "bp": "of_commoner_1",
+   "x": 9.0,
+   "y": 1.0,
+   "z": 27.5,
+   "rot": 270,
+   "name": "Ring 1",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 6.0,
+   "y": 1.0,
+   "z": 27.5,
+   "rot": 90,
+   "name": "Ring 1",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 7.5,
+   "y": 1.0,
+   "z": 29.0,
+   "rot": 180,
+   "name": "Ring 1",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 7.5,
+   "y": 1.0,
+   "z": 26.0,
+   "rot": 0,
+   "name": "Ring 1",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 10.5,
+   "y": 1.0,
+   "z": 27.5,
+   "rot": 90,
+   "name": "Ring 2",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 4.5,
+   "y": 1.0,
+   "z": 27.5,
+   "rot": 270,
+   "name": "Ring 2",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 7.5,
+   "y": 1.0,
+   "z": 30.5,
+   "rot": 180,
+   "name": "Ring 2",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 7.5,
+   "y": 1.0,
+   "z": 24.5,
+   "rot": 0,
+   "name": "Ring 2",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 12.0,
+   "y": 1.0,
+   "z": 27.5,
+   "rot": 270,
+   "name": "Ring 3",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 3.0,
+   "y": 1.0,
+   "z": 27.5,
+   "rot": 90,
+   "name": "Ring 3",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 7.5,
+   "y": 1.0,
+   "z": 32.0,
+   "rot": 0,
+   "name": "Ring 3",
+   "hidden": false
+  },
+  {
+   "bp": "of_commoner_1",
+   "x": 7.5,
+   "y": 1.0,
+   "z": 23.0,
+   "rot": 180,
+   "name": "Ring 3",
+   "hidden": false
+  }
+ ]
+}
